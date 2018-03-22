@@ -18,10 +18,10 @@
       </div>
       <nav class="header__item header__item--nav nav">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Как это работает</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Примеры</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Стоимость</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
+          <li class="nav__item"><a href="#how" class="nav__link scroll-to-target">Как это работает</a></li>
+          <li class="nav__item"><a href="#examples" class="nav__link scroll-to-target">Примеры</a></li>
+          <li class="nav__item"><a href="#prices" class="nav__link scroll-to-target">Стоимость</a></li>
+          <li class="nav__item"><a href="#reviews" class="nav__link scroll-to-target">Отзывы</a></li>
         </ul>
       </nav>
     </div>
@@ -33,7 +33,7 @@
           <div class="page__info">
             <h1 class="page__title">Помогаем сайтам стать удобнее для посетителей</h1>
             <p class="page__text">Четыре специалиста: маркетолог, программист, редактор и дизайнер протестируют удобство, дизайн, код и контент вашего сайта или сервиса</p>  
-            <a href="№" class="btn btn--green">Заказать аудит</a>
+            <a href="#" class="btn btn--green">Заказать аудит</a>
           </div>
           <div class="page__img">
             <img src="./img/section-page.png" alt="" class="img img--responsive">
@@ -46,7 +46,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section" id="how">
       <div class="container">
         <h2 class="section__title section__title--center">Как это работает</h2>
         <div class="about">
@@ -114,7 +114,7 @@
         </div>
       </div>
     </section>
-    <section class="section section--light">
+    <section class="section section--light" id="examples">
       <div class="container">
         <h2 class="section__title">Примеры аудитов</h2>
         <p class="section__text">Открываются в новой вкладке. Публикуются с разрешения владельцев.</p>
@@ -193,12 +193,59 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section" id="prices">
       <div class="container">
         <h2 class="section__title">Заявка на проверку сайта</h2>
+        <div class="section__row">
+          <div class="section__half">
+            <div class="form">
+              <div class="form__group">
+                <label for="" class="form__label">Адрес сайта</label>
+                <input type="text" class="form__input" placeholder="Например, pixelaria.ru">
+              </div>
+              <div class="form__group">
+                <label for="" class="form__label">Почта</label>
+                <input type="text" class="form__input" placeholder="Email получателя аудита">
+                <label for="" class="form__label">Имя</label>
+                <input type="text" class="form__input" placeholder="Ваше имя, фамилия">
+              </div>
+              <div class="form__group form__group--block">
+                <label for="" class="form__label">Тип сайта: </label>
+                <div class="radioblock">
+                  <input class="radioblock__input" name="type" type="hidden">
+                  <div class="radioblock__item">
+                    Корпоративный сайт или портал —  6000 р.  
+                  </div>
+                  <div class="radioblock__item radioblock__item--active">
+                    Сервис или мобильное приложение — 9000 р.  
+                  </div>
+                  <div class="radioblock__item">
+                    Интернет-магазин  —  5000 р.  
+                  </div>
+                  <div class="radioblock__item">
+                    Landing Page  -  3000 р.  
+                  </div>
+                </div>
+              </div>
+              <div class="form__group ">
+                <a href="#" class="btn btn--green btn--small">Оплатить 6000 р. банковской картой </a>
+                <p>или через <a href="#" class="link">Яндекс.Деньги</a></p>
+                
+              </div>
+              
+            </div>
+          </div>
+          <div class="section__half">
+            <div class="infoblock">
+              <p class="infoblock__text"><img src="./img/icon-tree.png" alt="" class="img img--inline">Срок выполнения аудита — 3 рабочих дня. Результат проверки отправим на указанную почту в формате PDF-документа. </p>
+              <p class="infoblock__text">Зафиксируем как критические, так и небольшие ошибки. Протестируем сайт с разных устройств и браузеров. Поставим себя на место разных сегментов вашей аудитории.</p>
+              <p class="infoblock__text">После получения отчета вы сможете задать любые возникшие вопросы без ограничений по времени.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="section section--light">
+    <section class="section section--light" id="reviews">
       <div class="container">
         <h2 class="section__title section__title--center">Отзывы о нас</h2>
         <div class="reviews">
